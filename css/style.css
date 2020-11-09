@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "login.css";
+
+body {
+  background-color: blue;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
