@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
-@import "login.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
 
 body {
   background: linear-gradient(#0000ff, #99ffcc);
