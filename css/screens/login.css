@@ -13,23 +13,10 @@
   color: var(--mint);
 }
 
-/* @keyframes opacityFlick {
-  0% {
-    opacity: 80%;
-  }
-  50% {
-    opacity: 10%;
-  }
-  100% {
-    opacity: 80%;
-  }
-} */
-
 .welcome-header__text {
   font-size: 10px;
   opacity: 80%;
   width: 50%;
-  /* animation: opacityFlick 5s ease-in-out infinite; */
 }
 
 #login-form {

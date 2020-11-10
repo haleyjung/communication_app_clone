@@ -135,3 +135,11 @@ input:focus {
 button:focus {
   outline: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+}

@@ -1,16 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Righteous&display=swap");
 @import "reset.css";
 @import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   background: linear-gradient(#0000ff, #99ffcc);
-  height: 100vh;
+  height: auto;
   color: white;
   font-family: "Lato", sans-serif;
+  padding-top: 50px;
+}
+
+.index-body {
+  height: 100vh;
+}
+
+.friends-body {
+  height: auto;
 }
