@@ -2,4 +2,5 @@
   --mint: #99ffcc;
   /* rgb(153, 255, 204) */
   --horizontal-space: 20px;
+  --main-border: 1px solid rgba(0, 0, 179, 0.1);
 }
