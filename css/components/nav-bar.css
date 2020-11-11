@@ -2,10 +2,13 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: var(--mint);
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    30%,
+    rgba(153, 255, 204, 1)
+  );
   padding: 15px 30px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(50, 223, 136, 0.5);
 }
 
 .nav__list {
@@ -19,16 +22,6 @@
 }
 
 .nav__notification {
-  background-color: violet;
-  width: 20px;
-  height: 20px;
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600;
   position: absolute;
   left: 18px;
   bottom: 18px;

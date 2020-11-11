@@ -7,6 +7,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -20,10 +21,14 @@ body {
   padding-top: 50px;
 }
 
-.index-body {
+.body-100vh {
   height: 100vh;
 }
 
-.friends-body {
+.body-auto {
   height: auto;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
