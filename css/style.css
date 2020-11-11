@@ -33,3 +33,12 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+.section-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 179, 0.5);
+  font-size: 10px;
+}

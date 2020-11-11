@@ -16,3 +16,7 @@
 .screen-header__icons span {
   margin-left: 15px;
 }
+
+.screen-header__link {
+  color: white;
+}

@@ -26,16 +26,6 @@
   padding-top: 15px;
 }
 
-.friends-screen__channel-header,
-.friends-screen__fav-header,
-.friends-screen__friend-list-header {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  color: rgba(0, 0, 179, 0.5);
-  font-size: 10px;
-}
-
 #friend-1,
 #friend-2,
 #friend-3,
