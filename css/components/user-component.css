@@ -81,3 +81,15 @@
 .user-component__column-music:hover {
   background: linear-gradient(-60deg, #0000ff, #99ffcc);
 }
+
+.user-component__column--chat-alert {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat-alert--time {
+  font-size: 11px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}

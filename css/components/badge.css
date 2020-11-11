@@ -1,8 +1,8 @@
 .badge {
-  background-color: violet;
-  width: 20px;
-  height: 20px;
-  font-size: 11px;
+  background-color: palevioletred;
+  width: 17px;
+  height: 17px;
+  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
