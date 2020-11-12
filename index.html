@@ -32,8 +32,8 @@
 
     <form action="friends.html" method="get" id="login-form">
         <!-- Using method="get" as there is no server-->
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
+        <input type="text" placeholder="Email or phone number" required>
+        <input type="password" minlength="8" placeholder="Password" required>
         <input type="submit" value="LOG IN">
         <a href="#">Forgot Your Account or Password?</a>
     </form>
