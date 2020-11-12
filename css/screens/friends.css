@@ -26,6 +26,17 @@
   padding-top: 15px;
 }
 
+.friends-screen__channel .user-component__column span {
+  font-size: 12px;
+  color: rgba(0, 0, 179, 0.4);
+}
+
+.firneds-screen__channel .user-component__column i {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #friend-1,
 #friend-2,
 #friend-3,

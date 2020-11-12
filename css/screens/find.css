@@ -110,3 +110,23 @@
 .open-post__heart-count i {
   font-size: 9px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count i:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
