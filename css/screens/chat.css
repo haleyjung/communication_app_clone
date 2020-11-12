@@ -99,6 +99,10 @@
   box-sizing: border-box;
 }
 
+.reply i {
+  opacity: 0.9;
+}
+
 .reply .reply__column:first-child {
   width: 10%;
 }
@@ -107,8 +111,12 @@
   color: blue;
 }
 
-.reply .reply__column:last-child {
-  width: 90%;
+.reply__column:first-child i:hover {
+  color: white;
+}
+
+.reply .reply__column:nth-child(2) {
+  width: 80%;
   position: relative;
 }
 
@@ -125,8 +133,30 @@
   opacity: 0.8;
 }
 
-.reply i {
-  opacity: 0.8;
+/* emoticon in chatbox */
+.reply .reply__column:nth-child(2) i {
+  color: blue;
+  font-size: 28px;
+  position: absolute;
+  right: 0.2px;
+  bottom: 3px;
+}
+
+.reply .reply__column:nth-child(2) i:hover {
+  color: var(--mint);
+}
+
+/* microphone button */
+.reply .reply__column:last-child {
+  width: 10%;
+  position: relative;
+  padding-bottom: 32px;
+  right: -5px;
+}
+
+.reply__column button {
+  background-color: var(--mint);
+  border: none;
 }
 
 .reply__column:last-child > i,
@@ -137,31 +167,9 @@
   color: blue;
 }
 
-.reply__column:last-child > i {
-  font-size: 25px;
-  right: 35px;
-  top: 4px;
-}
-
-.reply__column:last-child button {
-  position: absolute;
-  right: -3px;
-  top: 2px;
-}
-
-.reply__column button {
-  background-color: var(--mint);
-  border: none;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.reply__column button i {
-  opacity: 1;
-}
-
+.reply__column button:hover,
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+  color: white;
 }
