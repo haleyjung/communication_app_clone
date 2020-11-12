@@ -20,6 +20,7 @@
 .chat__timestamp {
   font-size: 10px;
   background-color: var(--mint);
+  opacity: 0.8;
   color: blue;
   padding: 7px 10px;
   border-radius: 20px;
@@ -29,6 +30,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .message-row img {
@@ -62,4 +64,104 @@
 .message__time {
   opacity: 0.8;
   font-size: 10px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--mint);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 12px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+/* Another option to reverse the bubble and timestamp: 
+ .message-row--own .message__bubble {
+  order: 1;
+} */
+
+.reply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--mint);
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:first-child i {
+  color: blue;
+}
+
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  height: 30px;
+  width: 100%;
+  border: 1px solid rgba(145, 238, 191, 0.8);
+  border-radius: 20px;
+}
+
+.reply input::placeholder {
+  font-size: 12px;
+  padding-left: 10px;
+  opacity: 0.8;
+}
+
+.reply i {
+  opacity: 0.8;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: blue;
+}
+
+.reply__column:last-child > i {
+  font-size: 25px;
+  right: 35px;
+  top: 4px;
+}
+
+.reply__column:last-child button {
+  position: absolute;
+  right: -3px;
+  top: 2px;
+}
+
+.reply__column button {
+  background-color: var(--mint);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.reply__column button i {
+  opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
