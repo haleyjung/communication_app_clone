@@ -4,7 +4,8 @@
 
 .more-screen .icon-row span {
   font-size: 10px;
-  font-weight: ;
+  font-weight: 200;
+  opacity: 0.7;
 }
 
 .more-suggestions {
@@ -39,4 +40,5 @@
   height: 30px;
   border-radius: 5px;
   margin-bottom: 5px;
+  background-color: white;
 }
