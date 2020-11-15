@@ -8,13 +8,13 @@
 
 .welcome-header__title {
   font-family: "Righteous", cursive;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 20px;
   color: var(--mint);
 }
 
 .welcome-header__text {
-  font-size: 10px;
+  font-size: 15px;
   opacity: 80%;
   width: 50%;
 }
@@ -43,7 +43,7 @@
 
 #login-form input::placeholder {
   color: rgba(255, 255, 255, 0.4);
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -53,6 +53,7 @@
 
 #login-form input[type="submit"] {
   background-color: var(--mint);
+  font-size: 14px;
   color: dodgerblue;
   margin-top: 35px;
   border-radius: 8px;
@@ -67,11 +68,11 @@
 }
 
 #login-form a {
-  margin-top: 10px;
+  margin-top: 12px;
   text-align: center;
   text-decoration: none;
   color: inherit;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .login-background img {

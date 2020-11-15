@@ -4,13 +4,13 @@
   background-color: rgba(0, 0, 179, 0.4);
   opacity: 0.8;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   padding: 8px 0px;
   margin: -15px 0px 15px 0px;
 }
 
 #friends-display-link i {
-  opacity: 0.4;
+  opacity: 0.6;
   margin: 0px 3px;
 }
 
