@@ -45,7 +45,7 @@
   margin-bottom: 25px;
 }
 
-.message-row img {
+.message-row .profile-img {
   width: 50px;
   height: 50px;
   border-radius: 20px;
@@ -73,9 +73,65 @@
   margin-right: 5px;
 }
 
+/* link in message bubble */
+.message__bubble:not(span) {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+.message__bubble__link {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 12px;
+  height: 220px;
+  width: 250px;
+}
+
+.message__bubble__link img {
+  width: 250px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.message__bubble__link span {
+  display: block;
+  padding-left: 10px;
+  color: blue;
+  font-size: 15px;
+}
+
+.message__bubble__link span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+
+.message__bubble__link span:nth-child(3) {
+  font-size: 11px;
+  padding-top: 8px;
+}
+
+.message__bubble__link span:last-child {
+  font-size: 10px;
+  opacity: 0.5;
+  padding-top: 16px;
+}
+
+.message__bubble__side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message__bubble__side i {
+  margin-bottom: 80px;
+  color: var(--mint);
+  padding-left: 15px;
+}
+
 .message__time {
   opacity: 0.8;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .message-row--own {
