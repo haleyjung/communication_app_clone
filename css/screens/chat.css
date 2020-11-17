@@ -10,6 +10,19 @@
   z-index: 1;
 }
 
+#chat-screen-2 {
+  background: lightblue;
+}
+
+#chat-screen-2 .alt-header,
+#chat-screen-2 .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: lightblue;
+  z-index: 1;
+}
+
 @keyframes fadeIn {
   from {
     transform: translateY(10px);
@@ -55,6 +68,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 .message__author {
@@ -80,7 +94,6 @@
 }
 
 .message__bubble__link {
-  margin-top: 10px;
   background-color: white;
   border-radius: 12px;
   height: 220px;
