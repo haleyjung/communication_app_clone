@@ -23,13 +23,31 @@
 
 @keyframes notificationAnimation {
   0% {
-    transform: none;
+    transform: rotateZ(0);
+  }
+  10% {
+    transform: rotateZ(-40deg);
+  }
+  20% {
+    transform: rotateZ(40deg);
+  }
+  30% {
+    transform: rotateZ(-40deg);
+  }
+  40% {
+    transform: rotateZ(40deg);
   }
   50% {
-    transform: translateY(-2px) rotateZ(20deg);
+    transform: rotateZ(-40deg);
+  }
+  60% {
+    transform: rotateZ(40deg);
+  }
+  70% {
+    transform: rotateZ(-40deg);
   }
   100% {
-    transform: none;
+    transform: rotateZ(0);
   }
 }
 
