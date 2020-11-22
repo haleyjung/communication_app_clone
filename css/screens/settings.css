@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 #setting-friends i {
@@ -43,6 +44,7 @@
   font-size: 22px;
   opacity: 0.8;
   color: var(--mint);
+  cursor: pointer;
 }
 
 .settings__setting-column:last-child {

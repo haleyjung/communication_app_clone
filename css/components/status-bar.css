@@ -9,6 +9,7 @@
   padding: 10px 10px;
   background: rgb(4, 21, 248);
   z-index: 2;
+  cursor: default;
 }
 
 .status-bar__column {

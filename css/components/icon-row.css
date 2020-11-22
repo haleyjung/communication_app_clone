@@ -18,6 +18,11 @@
   margin-top: 15px;
 }
 
+.icon-row__icon span:hover {
+  cursor: pointer;
+  color: var(--mint);
+}
+
 .icon-row__icon img {
   width: 20px;
   height: 20px;
