@@ -21,33 +21,34 @@
   position: relative;
 }
 
-@keyframes notificationAnimation {
-  0% {
-    transform: rotateZ(0);
+@keyframes vibrateNoti {
+  0%,
+  2%,
+  4%,
+  6%,
+  8%,
+  10%,
+  12%,
+  14%,
+  16%,
+  18% {
+    transform: translate3d(-1px, 0, 0);
   }
-  10% {
-    transform: rotateZ(-40deg);
+  1%,
+  3%,
+  5%,
+  7%,
+  9%,
+  11%,
+  13%,
+  15%,
+  17%,
+  19% {
+    transform: translate3d(1px, 0, 0);
   }
-  20% {
-    transform: rotateZ(40deg);
-  }
-  30% {
-    transform: rotateZ(-40deg);
-  }
-  40% {
-    transform: rotateZ(40deg);
-  }
-  50% {
-    transform: rotateZ(-40deg);
-  }
-  60% {
-    transform: rotateZ(40deg);
-  }
-  70% {
-    transform: rotateZ(-40deg);
-  }
+  20%,
   100% {
-    transform: rotateZ(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -55,19 +56,7 @@
   position: absolute;
   left: 18px;
   bottom: 18px;
-  animation: notificationAnimation 1s ease-in-out infinite;
-}
-
-.nav__update {
-  background-color: violet;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  left: 30px;
+  animation: vibrateNoti 2s ease-in-out infinite;
 }
 
 @keyframes appearBtnAnimation {

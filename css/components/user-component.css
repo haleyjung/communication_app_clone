@@ -11,6 +11,7 @@
 
 .user-component__text {
   color: white;
+  position: relative;
 }
 
 .user-component__profile {
@@ -32,6 +33,11 @@
   margin-top: 12px;
   font-size: 12px;
   font-weight: lighter;
+  opacity: 0.5;
+}
+
+.user-component__icon i {
+  margin: 32px 0px 0px -20px;
   opacity: 0.5;
 }
 
