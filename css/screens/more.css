@@ -25,6 +25,23 @@
   padding-right: 18px;
 }
 
+@keyframes floatLgIcon {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.more-suggestions__icon img:hover {
+  animation: floatLgIcon 2.5s ease-in-out infinite;
+  cursor: pointer;
+}
+
 .more-suggestions__icon span {
   font-size: 10px;
   opacity: 0.7;

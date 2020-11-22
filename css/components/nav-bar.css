@@ -16,6 +16,11 @@
   justify-content: space-between;
 }
 
+.nav__list img {
+  width: 32px;
+  height: 32px;
+}
+
 .nav__link {
   color: dodgerblue;
   position: relative;
@@ -54,8 +59,8 @@
 
 .nav__notification {
   position: absolute;
-  left: 18px;
-  bottom: 18px;
+  left: 24px;
+  bottom: 24px;
   animation: vibrateNoti 2s ease-in-out infinite;
 }
 

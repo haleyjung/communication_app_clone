@@ -20,6 +20,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/chat-2.css";
+@import "screens/music.css";
 
 body {
   background: linear-gradient(#0000ff, #99ffcc);

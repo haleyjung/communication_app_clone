@@ -26,3 +26,22 @@
 #icon-emoticon {
   padding-right: 4px;
 }
+
+@keyframes floatSmIcon {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.icon-row__icon i:hover,
+.icon-row__icon img:hover {
+  animation: floatSmIcon 2.2s ease-in-out infinite;
+  cursor: pointer;
+  color: mediumaquamarine;
+}
