@@ -113,6 +113,11 @@
   align-items: flex-end;
 }
 
+.user-component__column--chat-alert:hover {
+  color: var(--mint);
+  cursor: pointer;
+}
+
 .chat-alert--time {
   font-size: 11px;
   opacity: 0.5;

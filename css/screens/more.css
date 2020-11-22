@@ -11,6 +11,7 @@
 .more-suggestions {
   border-top: var(--main-border);
   padding-top: 15px;
+  cursor: default;
 }
 
 .more-suggestions__title {
@@ -23,6 +24,7 @@
   align-items: center;
   margin: 0px 24px;
   padding-right: 18px;
+  cursor: pointer;
 }
 
 @keyframes floatLgIcon {
@@ -37,9 +39,9 @@
   }
 }
 
-.more-suggestions__icon img:hover {
+.more-suggestions__icon:hover {
   animation: floatLgIcon 2.5s ease-in-out infinite;
-  cursor: pointer;
+  font-weight: 600;
 }
 
 .more-suggestions__icon span {

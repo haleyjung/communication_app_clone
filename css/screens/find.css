@@ -3,6 +3,7 @@
   padding: 15px 0px 3px 0px;
   border-top: var(--main-border);
   font-size: 10px;
+  cursor: default;
 }
 
 .recommended-friends span {
@@ -21,10 +22,11 @@
 .open-chat__header {
   display: flex;
   justify-content: space-between;
+  cursor: default;
 }
 
 .open-chat__header span {
-  margin-left: 235px;
+  margin: 0px 0px 4px 280px;
   opacity: 0.7;
 }
 
@@ -36,6 +38,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .open-post__title {
@@ -129,4 +132,5 @@
 .open-post__heart-count i:hover {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+  cursor: pointer;
 }

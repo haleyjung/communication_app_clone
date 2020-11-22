@@ -18,11 +18,6 @@
   margin-top: 15px;
 }
 
-.icon-row__icon span:hover {
-  cursor: pointer;
-  color: var(--mint);
-}
-
 .icon-row__icon img {
   width: 20px;
   height: 20px;
@@ -44,9 +39,9 @@
   }
 }
 
-.icon-row__icon i:hover,
-.icon-row__icon img:hover {
-  animation: floatSmIcon 2.2s ease-in-out infinite;
-  cursor: pointer;
+.icon-row__icon:hover {
   color: mediumaquamarine;
+  font-weight: 600;
+  cursor: pointer;
+  animation: floatSmIcon 2s ease-in-out infinite;
 }
