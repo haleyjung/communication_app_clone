@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="img/logo/DTalk_favicon.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chats | D-Talk</title>
+</head>
+<body class="body-100vh">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Verizon</span>
+        </div>
+        <div class="status-bar__column js-clock">
+            <span>00:00</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </div>
+    
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><a class="screen-header__link" href="find.html"><i class="fas fa-search fa-lg"></a></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-fill-drip fa-lg"></i></span>
+            <span><a class="screen-header__link" href="settings.html"><i class="fas fa-cog fa-lg"></a></i></span>
+        </div>
+    </header>
+
+    <main class="friends-screen">
+        <a href="chat.html">
+            <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/profile/cmiscm-profile.png" class="user-component__profile user-component__profile--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__name--regular">@cmiscm</h4>
+                    <h6 class="user-component__subtitle">Great!</h6>
+                </div>
+            </div>
+            <div class="user-component__column--chat-alert">
+                <span class="chat-alert--time">Nov 12</span>
+                <div class="badge">2</div>
+            </div>
+            </div>
+        </a>
+    </main>
+
+    <main class="friends-screen">
+        <a href="chat-2.html">
+            <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/profile/DTalk-channel-profile.png" class="user-component__profile user-component__profile--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__name--regular">D-Talk</h4>
+                    <h6 class="user-component__subtitle">Great!</h6>
+                </div>
+            </div>
+            <div class="user-component__column--chat-alert">
+                <span class="chat-alert--time">Nov 10</span>
+                <div class="badge">1</div>
+            </div>
+            </div>
+        </a>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a  class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a  class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a> 
+            </li>
+            <li class="nav__btn">
+                <a  class="nav__link" href="more.html">
+                    <span class="nav__update"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>   
+        </ul>
+    </nav>
+
+    <div id="no-mobile--lg">
+        <img src="img/logo/DTalk_logo_splash-screen.gif" alt="">
+        <span>Your screen is too big!</span>
+    </div>
+
+    <div id="no-mobile--sm">
+        <img src="img/logo/DTalk_logo_splash-screen.gif" alt="">
+        <span>Your screen should be slightly bigger!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4f532742b9.js" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>

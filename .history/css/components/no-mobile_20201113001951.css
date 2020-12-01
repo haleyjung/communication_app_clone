@@ -1,0 +1,38 @@
+#no-mobile--lg,
+#no-mobile--sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  font-family: Righteous;
+  font-size: 20px;
+}
+
+#no-mobile--sm span {
+  font-size: 15px;
+}
+
+#no-mobile--lg img,
+#no-mobile--sm img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 545px) {
+  #no-mobile--lg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #no-mobile--sm {
+    display: none;
+  }
+}

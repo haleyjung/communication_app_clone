@@ -1,0 +1,9 @@
+.playlist {
+  border-top: var(--main-border);
+  padding: 15px 15px;
+}
+
+.album img {
+  width: 100px;
+  height: 100px;
+}

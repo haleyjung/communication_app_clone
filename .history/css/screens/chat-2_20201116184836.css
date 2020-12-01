@@ -1,0 +1,7 @@
+/* Message bubble for D-Talk Notification */
+.message__bubble__link--sm {
+  background-color: white;
+  border-radius: 12px;
+  height: 180px;
+  width: 250px;
+}

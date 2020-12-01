@@ -1,0 +1,56 @@
+#setting-version {
+  padding: 20px 0px 30px 0px;
+  border-bottom: 1px solid rgba(4, 4, 209, 0.1);
+}
+
+#setting-privacy {
+  padding: 30px 0px 20px 0px;
+}
+
+#setting-features {
+  padding: 20px 0px 30px 0px;
+  border-bottom: 1px solid rgba(4, 4, 209, 0.1);
+}
+
+#setting-support {
+  padding: 30px 0px 20px 0px;
+  border-bottom: none;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(4, 4, 209, 0.04);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#setting-friends i {
+  margin-right: 13px;
+}
+
+#setting-call i {
+  margin-right: 27px;
+}
+
+#setting-features i {
+  margin-right: 33px;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+  color: var(--mint);
+}
+
+.settings__setting-column:last-child {
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+.settings-list__cushion {
+  padding: 50px 0;
+}

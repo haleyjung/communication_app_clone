@@ -1,0 +1,7 @@
+#Ignore image files
+*.ai
+*.psd
+
+#Misc.
+.history
+

@@ -1,0 +1,148 @@
+.playlist {
+  border-top: var(--main-border);
+  padding: 20px 20px;
+}
+
+.playlist--top {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 20px;
+  border-bottom: var(--main-border);
+}
+
+.playlist--album {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 280px;
+  position: relative;
+  box-shadow: 5px 5px 15px 0px rgba(110, 10, 210, 0.5);
+}
+
+.playlist--detail {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 20px 0px 0px 180px;
+}
+
+.playlist--detail span {
+  display: flex;
+  flex-direction: column;
+  line-height: 28px;
+}
+
+.playlist--detail span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  color: mediumseagreen;
+}
+
+.playlist--detail span:nth-child(2) {
+  font-size: 22px;
+  color: mediumaquamarine;
+}
+
+.playlist--detail span:last-child {
+  font-size: 13px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.playlist--btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  margin: 120px 0px 0px 180px;
+}
+
+.playlist--btn button {
+  width: 150px;
+  padding: 7px 15px;
+  font-size: 11px;
+  color: var(--mint);
+  outline: none;
+  border: 1px solid var(--mint);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.playlist--btn button:first-child {
+  margin-right: 20px;
+}
+
+.playlist--btn i {
+  position: absolute;
+  margin: 10px 0px 0px 20px;
+  color: var(--mint);
+  font-size: 10px;
+}
+
+.playlist--btn button:hover {
+  background: linear-gradient(-60deg, #0000ff, #99ffcc);
+  color: white;
+  cursor: pointer;
+}
+
+.scroller {
+  padding-top: 20px;
+  height: 250px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.playlist--li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: var(--main-border);
+}
+
+.playlist--thumbnail {
+  position: relative;
+}
+
+.playlist--thumbnail img {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#music-title {
+  width: 150px;
+  margin: 10px 0px 0px 10px;
+  position: absolute;
+  font-size: 14px;
+}
+
+#ep-icon {
+  position: absolute;
+  margin: 11px 0px 0px 130px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  background-color: mediumseagreen;
+  color: rgba(80, 38, 38, 0.3);
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.playlist--caption {
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.playlist--caption span:first-child {
+  padding-right: 40px;
+}

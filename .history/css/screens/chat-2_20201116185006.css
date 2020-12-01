@@ -1,0 +1,12 @@
+/* Message bubble for D-Talk Notification */
+.message__bubble__noti {
+  background-color: white;
+  border-radius: 12px;
+  height: 180px;
+  width: 250px;
+}
+
+.message__bubble__noti span:first-child {
+  color: blue;
+  font-size: 14px;
+}

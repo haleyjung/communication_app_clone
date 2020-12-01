@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="img/logo/DTalk_favicon.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat with @cmiscm | D-Talk</title>
+</head>
+<body id="chat-screen" class="body-100vh">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Verizon</span>
+        </div>
+        <div class="status-bar__column js-clock">
+            <span>00:00</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">D-Talk</h1>
+        </div>
+        <div class="alt-header__column">
+            <a href="find.html">
+                <i class="fas fa-search fa-lg"></i>
+            </a>
+            <a href="more.html">
+                <i class="fas fa-bars fa-lg"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Wednesday, october 21, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="img/profile/cmiscm-profile.png" alt="" class="profile-img">
+            <div class="message-row__content">
+                <span class="message__author">D-Talk</span>
+                <div class="message__info">
+                    <a class="message__bubble" target="_blank"
+                        href="https://www.youtube.com/watch?v=cpEeqACsF_Q&t=618s">
+                        https://www.youtube.com/watch? <br>
+                        v=cpEeqACsF_Q&feature=share
+                    </a>
+                </div>
+                <div class="message__info">
+                    <a href="https://www.youtube.com/watch?v=cpEeqACsF_Q&t=618s" target="_blank">
+                        <div class="message__bubble__link">
+                            <img src="img/news/youtube_cover.png" alt="">
+                            <span>My portfolio website</span>
+                            <span>Form Follows Function is a portfolio...</span>
+                            <span>www.youtube.com</span>
+                        </div>
+                    </a>
+                    <div class="message__bubble__side">
+                        <a href="https://www.youtube.com/watch?v=cpEeqACsF_Q&t=618s" target="_blank">
+                            <div>
+                                <i class="fas fa-external-link-square-alt fa-2x"></i>
+                            </div>
+                        </a>
+                        <div><span class="message__time">10:36</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">This is so inspiring!</span>
+                    <span class="message__time">10:55</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/profile/cmiscm-profile.png" alt="" class="profile-img">
+            <div class="message-row__content">
+                <span class="message__author">@cmiscm</span>
+                <div class="message__info">
+                    <span class="message__bubble">😊</span>
+                </div>
+                <div class="message__info">
+                    <span class="message__bubble">Great!</span>
+                    <span class="message__time">11:02</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <form class="reply">
+
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message">
+            <i class="far fa-smile-wink fa-2x"></i>
+        </div>
+
+        <div class="reply__column">
+            <button>
+                <i class="fas fa-microphone fa-2x"></i>
+            </button>
+        </div>
+
+    </form>
+
+    <div id="no-mobile--lg">
+        <img src="img/logo/DTalk_logo_splash-screen.gif" alt="">
+        <span>Your screen is too big!</span>
+    </div>
+
+    <div id="no-mobile--sm">
+        <img src="img/logo/DTalk_logo_splash-screen.gif" alt="">
+        <span>Your screen should be slightly bigger!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4f532742b9.js" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>

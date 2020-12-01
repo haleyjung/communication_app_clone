@@ -1,0 +1,81 @@
+.welcome-header {
+  margin: 100px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-family: "Righteous", cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--mint);
+}
+
+.welcome-header__text {
+  font-size: 10px;
+  opacity: 80%;
+  width: 50%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 60px;
+}
+
+#login-form input {
+  padding: 10px 0px;
+  border: none;
+  font-size: 12px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 2px solid white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: transparent;
+  text-align: center;
+  color: var(--mint);
+  transition: border-color 0.5s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 11px;
+  text-align: center;
+}
+
+#login-form input:focus {
+  border-color: var(--mint);
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--mint);
+  color: dodgerblue;
+  margin-top: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(53, 10, 109, 0.3);
+  transition: 1s;
+}
+
+#login-form input[type="submit"]:active {
+  opacity: 0.8;
+  box-shadow: 1px 1px 1px rgba(53, 10, 109, 0.6);
+}
+
+#login-form a {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 8px;
+}
+
+.login-background img {
+  position: relative;
+  margin-top: 20px;
+  width: 100px;
+}

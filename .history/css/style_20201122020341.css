@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Righteous&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/chat-2.css";
+@import "screens/music.css";
+
+body {
+  background: linear-gradient(#0000ff, #99ffcc);
+  height: auto;
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+}
+
+.body-100vh {
+  height: 100vh;
+}
+
+.body-auto {
+  height: auto;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.section-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 179, 0.5);
+  font-size: 12px;
+}

@@ -1,0 +1,28 @@
+.playlist {
+  border-top: var(--main-border);
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.playlist--top {
+  display: flex;
+  justify-content: left;
+}
+
+.playlist--album {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 280px;
+}
+
+.playlist--detail {
+  border: 1px solid red;
+}
+
+.playlist--detail span {
+  display: flex;
+  flex-direction: column;
+}

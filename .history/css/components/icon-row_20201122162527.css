@@ -1,0 +1,51 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon-row__icon i {
+  font-size: 20px;
+}
+
+.icon-row__icon span {
+  margin-top: 15px;
+}
+
+.icon-row__icon span:hover {
+  cursor: pointer;
+  color: var(--mint);
+}
+
+.icon-row__icon img {
+  width: 20px;
+  height: 20px;
+}
+
+#icon-emoticon {
+  padding-right: 4px;
+}
+
+@keyframes floatSmIcon {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.icon-row__icon:hover {
+  animation: floatSmIcon 2.2s ease-in-out infinite;
+  cursor: pointer;
+  color: mediumaquamarine;
+}
